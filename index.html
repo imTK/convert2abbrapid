@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Website</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <!-- You can add any header content, such as a navigation menu, here -->
+    </header>
+
+    <div class="container">
+    <h1>Hello</h1>
+    <button id="alertButton">Press me</button>
+</div>
+
+
+    <footer>
+        <!-- You can add any footer content, such as copyright information, here -->
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var alertButton = document.getElementById('alertButton');
+            if (alertButton) {
+                alertButton.addEventListener('click', function() {
+                    alert('You pressed the button!');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
